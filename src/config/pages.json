@@ -1,6 +1,12 @@
 {
   "LogIn": {
     "path": "/login",
-    "classes": "login-page"
+    "classes": "login-page",
+    "requiresAuth": false
+  },
+  "Home": {
+    "path": "/home",
+    "classes": "home-page",
+    "requiresAuth": true
   }
 }

@@ -6,10 +6,12 @@ import { store } from './redux/Setup/Store';
 import pages from './config/pages.json';
 import withPageClasses from './hoc/withPageClasses';
 import LogIn from './pages/Register/LogIn';
+import Home from './pages/Home';
 
 // Placeholder for page components
 const components: Record<string, React.ComponentType<any>> = {
   LogIn,
+  Home,
 };
 
 const App: React.FC = () => {
