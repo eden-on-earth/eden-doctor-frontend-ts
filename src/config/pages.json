@@ -1,0 +1,6 @@
+{
+  "LogIn": {
+    "path": "/login",
+    "classes": "login-page"
+  }
+}
